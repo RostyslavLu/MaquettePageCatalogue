@@ -1,0 +1,36 @@
+[id="navigation-principale"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color-medium);
+    padding: 10px;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+[id="navigation-principale"] img {
+    max-height: 40px;
+}
+
+[id="navigation-principale"] a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.champ_recherche > input {
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.champ_recherche > input:focus {
+    background-color: var(--accent-color-medium);
+
+}
+
+.liens_page {
+    display: flex;
+    gap: 15px;
+}
