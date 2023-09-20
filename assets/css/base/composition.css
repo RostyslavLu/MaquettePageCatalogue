@@ -12,15 +12,11 @@ body > main > * + * {
 }
 
 main > section {
-    margin-top: var(--space-xxl);
+    margin-top: 64px;
 }
 
 section > header {
-    margin-bottom: var(--space-xl);
+    margin-bottom: var(--space-xxl);
 }
 
 /* general */
-
-img {
-	max-width: 100%;
-}

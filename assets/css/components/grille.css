@@ -11,6 +11,7 @@
 }
 
 .carte img {
+    max-width: 100%;
     background-color: var(--main-color-medium);
     object-fit: contain;
     aspect-ratio: 1.8;
