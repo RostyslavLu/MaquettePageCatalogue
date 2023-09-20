@@ -3,4 +3,7 @@
 @import url(variables/spacing.css);
 @import url(variables/typographie.css);
 @import url(base/typographie.css);
+@import url(base/composition.css);
 @import url(components/navigation.css);
+@import url(components/entete-hero.css);
+@import url(components/bouton.css);

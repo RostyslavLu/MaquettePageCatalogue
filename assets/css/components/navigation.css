@@ -4,33 +4,50 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--main-color-medium);
-    padding: 10px;
-    margin-top: 20px;
-    gap: 20px;
+    padding: var(--space-lg);
+    gap: var( --space-xl);
 
 }
 
-[id="navigation-principale"] img {
-    max-height: 40px;
+.logo {
+    max-height: 80px;
+    filter: brightness(200%);
 }
 
 [id="navigation-principale"] a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-size: var(--text-xs);
+}
+[id="navigation-principale"] a:hover {
+    color: var(--secondary-color-dark);
 }
 
 .champ_recherche > input {
-    padding: 5px;
-    border-radius: 8px;
-    border: 1px solid black;
+    padding: var(--space-lg);
+    border-radius: var( --space-xl);
+    min-width: 300px;
+    font-size: var(--text-xs);
+    color: var(--main-color-medium);
+    border: 0px;
 }
 
 .champ_recherche > input:focus {
     background-color: var(--accent-color-medium);
-
+    color: var(--accent-color-light);
 }
 
 .liens_page {
     display: flex;
-    gap: 15px;
+    gap: var( --space-xl);
+}
+
+.utilisateur {
+    display: flex;
+    flex-direction: row;
+    gap: var( --space-xl);
+}
+
+.utilisateur img {
+    max-height: var( --space-xl);
 }
