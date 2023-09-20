@@ -8,7 +8,25 @@
     text-decoration: none;
     border: 1px solid var(--accent-color-dark);
 }
+
 .bouton:hover {
     background-color: var(--accent-color-light);
     color: var(--accent-color-medium);
+}
+
+.bouton-details {
+    display: inline-block;
+    background-color: var(--secondary-color-dark);
+    color: var(--accent-color-light);
+    font-weight: 700;
+    padding: var(--space-lg);
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid var(--accent-color-dark);
+}
+
+.bouton-details:hover {
+    background-color: var(--accent-color-light);
+    color: var(--secondary-color-dark);
+    border: 1px solid var(--secondary-color-dark);
 }

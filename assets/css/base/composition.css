@@ -2,3 +2,25 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+body > main {
+    padding: var(--space-xl);
+}
+
+body > main > * + * {
+	margin-top: var(--space-xl);
+}
+
+main > section {
+    margin-top: var(--space-xxl);
+}
+
+section > header {
+    margin-bottom: var(--space-xl);
+}
+
+/* general */
+
+img {
+	max-width: 100%;
+}

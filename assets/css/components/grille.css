@@ -1,0 +1,26 @@
+.grille {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: var(--space-xl);
+}
+
+.carte {
+    box-shadow: 5px 5px 5px var(--main-color-dark);
+    padding: var(--space-lg);
+    border: 1px solid var(--main-color-medium);
+}
+
+.carte img {
+    background-color: var(--main-color-medium);
+    object-fit: contain;
+    aspect-ratio: 1.8;
+    padding: var(--space-xl);
+}
+
+.carte > * + * {
+    margin-top: var(--space-xl);
+}
+
+.carte > picture {
+    background-color: var(--main-color-medium);
+}

@@ -1,19 +1,9 @@
 body {
     font-family: var(--secondary-font);
 }
-h1 {
-    font-size: var(--text-xxl);
-}
 h2 {
-    font-size: var(--text-xl);    
+    font-size: var(--text-md);
 }
 h3 {
-    font-size: var(--text-md);    
+    font-size: var(--text-sm);
 }
-h5 {
-    font-size: var(--text-sm);    
-}
-h6 {
-    font-size: var(--text-xs);   
-}
-
