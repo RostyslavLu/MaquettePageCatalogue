@@ -45,26 +45,26 @@
                     <h3>Recherche avancée</h3>
                     <article class="recherche">
                         <h4>Condition</h4>
-                        <form action="">
+                        <form >
                             <div>
-                                <input type="radio" name="condition" value="Parfaite">
-                                <label for="condition">Parfaite</label>
+                                <input type="radio" name="condition" id="parfaite" value="Parfaite">
+                                <label for="parfaite">Parfaite</label>
                             </div>
                             <div>
-                                <input type="radio" name="condition" value="Excellente">
-                                <label for="condition">Excellente</label>
+                                <input type="radio" name="condition" id="excellente" value="Excellente">
+                                <label for="excellente">Excellente</label>
                             </div>
                             <div>
-                                <input type="radio" name="condition" value="Bonne">
-                                <label for="condition">Bonne</label>
+                                <input type="radio" name="condition" id="bonne" value="Bonne">
+                                <label for="bonne">Bonne</label>
                             </div>
                             <div>
-                                <input type="radio" name="condition" value="Moyenne">
-                                <label for="condition">Moyenne</label>
+                                <input type="radio" name="condition" id="moyenne" value="Moyenne">
+                                <label for="moyenne">Moyenne</label>
                             </div>
                             <div>
-                                <input type="radio" name="condition" value="Endommagé">
-                                <label for="condition">Endommagé</label>
+                                <input type="radio" name="condition" id="endommage" value="Endommagé">
+                                <label for="endommage">Endommagé</label>
                             </div>
                             <hr>
                             <h4>Pays d'origine</h4>
@@ -79,18 +79,18 @@
                             <hr>
                             <h4>Prix</h4>
                             <div class="prix">
-                                <input type="number" name="prix-de">
+                                <input type="number" name="prix-de" id="prix-de">
                                 <label for="prix-de">$</label>
                             
-                                <input type="number" name="prix-a">
+                                <input type="number" name="prix-a" id="prix-a">
                                 <label for="prix-a">$</label>
                             </div>
                             <hr>
                             <h4>Anné d'émission</h4>
                             <div class="anne">
-                                <input type="number" name="anne-de">
+                                <input type="number" name="anne-de" id="anne-de">
                                 <label for="anne-de"></label>
-                                <input type="number" name="anne-a">
+                                <input type="number" name="anne-a" id="anne-a">
                                 <label for="anne-a"></label>
                             </div>
                             <div class="bouton-recherche">
@@ -234,13 +234,14 @@
                         <p>Mise actuel: <strong>235$</strong></p>
                         <a class="bouton-details" href="#">Details</a>
                     </article>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        <header>
+        <div class="logo-stampee">
             <img src="assets/img/logo/logo-1-alt.png" alt="logo">
-        </header>
+        </div>
         <section>
             <article class="liens-rapide">
                 <h2>Liens rapides</h2>
@@ -254,11 +255,10 @@
             <article class="social">
                 <h2>Suivez nous sur</h2>
                 <div class="block">
-                    <a href="#"><img src="assets/img/logo/8666797_facebook_social_icon.png" alt="icon-facebook"></a>
-                    <a href="#"><img src="assets/img/logo/8666812_twitter_social_icon.png" alt="icon-twitter"></a>
-                    <a href="#"><img src="assets/img/logo/211928_social_youtube_icon.png" alt="icon-youtube"></a>
-                    <a href="#"><img src="assets/img/logo/4747498_instagram_social media_icon.png" alt="icon-instagram"></a>
-                    <a href="#"><img src="" alt=""></a>
+                    <a href="#"><img src="./assets/img/logo/8666797_facebook_social_icon.png" alt="icon-facebook"></a>
+                    <a href="#"><img src="./assets/img/logo/8666812_twitter_social_icon.png" alt="icon-twitter"></a>
+                    <a href="#"><img src="./assets/img/logo/211928_social_youtube_icon.png" alt="icon-youtube"></a>
+                    <a href="#"><img src="./assets/img/logo/4747498_instagram_social.png" alt="icon-instagram"></a>
                 </div>
             </article>
             <article class="contact">

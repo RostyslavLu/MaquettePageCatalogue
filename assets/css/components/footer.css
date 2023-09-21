@@ -3,13 +3,13 @@ footer {
     padding: var(--space-xxl);
 }
 
-footer > header {
+footer > div {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: var(--space-xl);
 }
-footer > header > img {
+footer > div > img {
     max-height: 80px;
 }
 footer > section {
