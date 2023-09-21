@@ -1,6 +1,6 @@
 .grille {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
 	gap: var(--space-xl);
 }
 
@@ -14,7 +14,7 @@
     max-width: 100%;
     background-color: var(--main-color-medium);
     object-fit: contain;
-    aspect-ratio: 1.8;
+    aspect-ratio: 1.4;
     padding: var(--space-xl);
 }
 
@@ -24,4 +24,5 @@
 
 .carte > picture {
     background-color: var(--main-color-medium);
+    min-height: 600px;
 }

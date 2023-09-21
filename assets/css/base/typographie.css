@@ -7,6 +7,9 @@ h2 {
 h3 {
     font-size: var(--text-sm);
 }
+h4 {
+    font-size: var(--text-xs);
+}
 
 p {
     font-size: var(--text-xs);
