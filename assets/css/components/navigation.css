@@ -16,11 +16,13 @@
 
 [id="navigation-principale"] a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: var(--accent-color-light);
     font-size: var(--text-xxs);
+    font-weight: 700;
 }
 [id="navigation-principale"] a:hover {
     color: var(--secondary-color-dark);
+
 }
 
 .champ_recherche > input {

@@ -15,3 +15,7 @@ p {
     font-size: var(--text-xs);
     line-height: 1.2;
 }
+
+strong {
+    font-weight: bold;
+}

@@ -12,6 +12,7 @@
 .bouton:hover {
     background-color: var(--accent-color-light);
     color: var(--accent-color-medium);
+    transition: background-color 350ms ease-in-out;
 }
 
 .bouton-details {
@@ -29,4 +30,5 @@
     background-color: var(--accent-color-light);
     color: var(--secondary-color-dark);
     border: 1px solid var(--secondary-color-dark);
+    transition: background-color 350ms ease-in-out;
 }
