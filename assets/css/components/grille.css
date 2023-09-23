@@ -1,28 +1,5 @@
 .grille {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-	gap: var(--space-xl);
-}
-
-.carte {
-    box-shadow: 5px 5px 5px var(--main-color-dark);
-    padding: var(--space-lg);
-    border: 1px solid var(--main-color-medium);
-}
-
-.carte img {
-    display: block;
-    width: 100%;
-    height: 18rem;
-    object-fit: contain;
-    background-color: var(--main-color-medium);
-}
-
-.carte > * + * {
-    margin-top: var(--space-xl);
-}
-
-.carte > picture {
-    background-color: var(--main-color-medium);
-    min-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: var(--space-xl);
 }
