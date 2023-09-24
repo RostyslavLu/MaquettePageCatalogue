@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--main-color-medium);
+    background-color: var(--main-color-dark);
     padding: var(--space-lg);
     gap: var( --space-xl);
 
@@ -30,7 +30,7 @@
     border-radius: var( --space-xl);
     min-width: 300px;
     font-size: var(--text-xxs);
-    color: var(--main-color-medium);
+    color: var(--main-color-dark);
     border: 0px;
 }
 

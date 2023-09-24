@@ -14,7 +14,8 @@
             <a href="index.html"><img src="./assets/img/logo/logo-1-alt.png" alt="logo" class="logo"></a>
         </header>
         <div class="champ_recherche">
-            <input type="search" placeholder="rechercher">
+            <label for="rechercher"></label>
+            <input type="search" placeholder="rechercher" name="rechercher" id="rechercher">
         </div>
         <div class="liens_page">
             <a href="#">Notre mission</a>
@@ -67,23 +68,23 @@
                         <form >
                             <h4>Condition</h4>
                             <div>
-                                <input type="radio" name="condition" id="parfaite" value="Parfaite">
+                                <input type="radio" name="condition" id="parfaite">
                                 <label for="parfaite">Parfaite</label>
                             </div>
                             <div>
-                                <input type="radio" name="condition" id="excellente" value="Excellente">
+                                <input type="radio" name="condition" id="excellente">
                                 <label for="excellente">Excellente</label>
                             </div>
                             <div>
-                                <input type="radio" name="condition" id="bonne" value="Bonne">
+                                <input type="radio" name="condition" id="bonne">
                                 <label for="bonne">Bonne</label>
                             </div>
                             <div>
-                                <input type="radio" name="condition" id="moyenne" value="Moyenne">
+                                <input type="radio" name="condition" id="moyenne">
                                 <label for="moyenne">Moyenne</label>
                             </div>
                             <div>
-                                <input type="radio" name="condition" id="endommage" value="Endommagé">
+                                <input type="radio" name="condition" id="endommage">
                                 <label for="endommage">Endommagé</label>
                             </div>
                             <hr>
@@ -108,32 +109,32 @@
                             <hr>
                             <h4>Type</h4>
                             <div>
-                                <input type="radio" name="type" id="general" value="Général">
-                                <label for="parfaite">Général</label>
+                                <input type="radio" name="type" id="general">
+                                <label for="general">Général</label>
                             </div>
                             <div>
-                                <input type="radio" name="type" id="courrier-aerien" value="CourrierAérien">
-                                <label for="excellente">Courrier Aérien</label>
+                                <input type="radio" name="type" id="courrier-aerien">
+                                <label for="courrier-aerien">Courrier Aérien</label>
                             </div>
                             <div>
-                                <input type="radio" name="type" id="livret" value="Livret">
-                                <label for="bonne">Livret</label>
+                                <input type="radio" name="type" id="livret">
+                                <label for="livret">Livret</label>
                             </div>
                             <div>
-                                <input type="radio" name="type" id="port-du" value="Portdû">
-                                <label for="moyenne">Port dû</label>
+                                <input type="radio" name="type" id="port-du">
+                                <label for="port-du">Port dû</label>
                             </div>
                             <div>
-                                <input type="radio" name="type" id="carte-postal" value="Cartepostal">
-                                <label for="endommage">Carte postal</label>
+                                <input type="radio" name="type" id="carte-postal">
+                                <label for="carte-postal">Carte postal</label>
                             </div>
                             <div>
-                                <input type="radio" name="type" id="semi-postal" value="Semipostal">
-                                <label for="endommage">Semi postal</label>
+                                <input type="radio" name="type" id="semi-postal">
+                                <label for="semi-postal">Semi postal</label>
                             </div>
                             <div>
-                                <input type="radio" name="type" id="entier-postal" value="Entierpostal">
-                                <label for="endommage">Entier postal</label>
+                                <input type="radio" name="type" id="entier-postal">
+                                <label for="entier-postal">Entier postal</label>
                             </div>
                             <hr>
                             <h4>Année d'émission</h4>
@@ -147,9 +148,9 @@
                             <h4>Dimensions</h4>
                             <div class="anne">
                                 <input type="number" name="dimensions-de" id="dimensions-de">
-                                <label for="anne-de"></label>
+                                <label for="dimensions-de"></label>
                                 <input type="number" name="dimensions-a" id="dimensions-a">
-                                <label for="anne-a"></label>
+                                <label for="dimensions-a"></label>
                             </div>
                             <hr>
                             <h4>Tirage</h4>
@@ -162,7 +163,7 @@
                             </select>
                             <hr>
                             <h4>Certification</h4>
-                            <select name="" id="">
+                            <select name="certification" id="certification">
                                 <option value="0"></option>
                                 <option value="1">Oui</option>
                                 <option value="2">Non</option>
