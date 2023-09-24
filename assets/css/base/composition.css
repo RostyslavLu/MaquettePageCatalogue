@@ -12,12 +12,12 @@ body > main > * + * {
 }
 
 main > section {
-    margin-top: 64px;
+    margin-top: var(--space-xxl);
 }
 
 section > header {
-    margin-bottom: var(--space-xxl);
-}
+    margin-bottom: var(--space-lg);
+} 
 
 /* general */
 footer {

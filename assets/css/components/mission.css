@@ -9,10 +9,6 @@
     max-width: 50%;
 }
 
-/*.mission > img, .mission > article {
-    flex-basis: 50%;
-    max-width: 50%;
-}*/
 .mission > article {
     display: flex;
     flex-direction: column;
