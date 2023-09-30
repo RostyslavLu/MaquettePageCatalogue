@@ -1,0 +1,30 @@
+.entete-timbre {
+    padding: var(--space-xl);
+}
+
+.entete-timbre > p {
+    margin-top: var(--space-xl);
+}
+
+.timbre-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.timbre-details > picture {
+    flex-basis: 30ch;
+    flex-grow: 1;
+}
+
+.timbre-details > article {
+    flex-basis: 30ch;
+    flex-grow: 1;
+}
+.timbre-details > picture {
+    display: flex;
+    flex-direction: column;
+}
+.timbre-details > picture > div {
+    display: grid;
+    grid-template-columns: 1fr 1f 1fr;
+}
