@@ -21,7 +21,7 @@
     font-weight: 700;
 }
 [id="navigation-principale"] a:hover {
-    color: var(--secondary-color-dark);
+    color: var(--accent-color-dark);
 
 }
 
