@@ -14,6 +14,11 @@
     filter: brightness(200%);
 }
 
+.logo:hover {
+    filter: brightness(100%);
+    transition: filter 300ms ease-in-out;
+}
+
 [id="navigation-principale"] a {
     text-decoration: none;
     color: var(--accent-color-light);
