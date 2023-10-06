@@ -3,6 +3,10 @@ footer {
     padding: var(--space-xxl);
 }
 
+.footer-categorie-titre {
+    color: var(--accent-color-light);
+}
+
 footer > div {
     display: flex;
     justify-content: center;
@@ -49,5 +53,5 @@ footer > section {
     font-size: var(--text-xxs);
 }
 .block > a:hover {
-    color: var(--secondary-color-dark);
+    color: var(--accent-color-dark);
 }
