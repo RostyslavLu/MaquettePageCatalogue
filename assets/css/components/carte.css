@@ -1,7 +1,11 @@
 .carte {
-    /* box-shadow: 2px 2px 2px var(--accent-color-medium); */
     border: 1px solid var(--main-color-medium);
     border-radius: 5px;
+}
+
+.carte:hover {
+    transform: translateY(-10px);
+    transition: transform 250ms ease-in-out;
 }
 
 .carte img {

@@ -3,7 +3,6 @@
 	/* -- placer la case à cocher en haut à droite */
 	body > input[type="checkbox"] {
 		position: sticky;
-		top: var(--space-xs);
 		display: block;
 		margin-right: auto;
 		z-index: 5;

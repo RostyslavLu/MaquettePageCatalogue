@@ -46,8 +46,6 @@
     align-items: center;
 }
 
-
-
 .timbre-image > picture > img {
     object-fit: cover;
     width: 100%;
@@ -83,6 +81,8 @@
 .timbre-miser > input, .timbre-miser > button {
     font-size: var(--text-xs);
     padding: var(--space-xs);
+    border-radius: 5px;
+    border: 1px solid var(--secondary-color-dark);
 }
 
 .timbre-meme-categorie > div {
